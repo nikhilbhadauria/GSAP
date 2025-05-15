@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "Neue Machina";
+    src: url(./NeueMachina-Regular.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General Sans", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1{
+    font-size: 25px;
+}
+
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.center{
+    height: 70%;
+    padding: 35px 50px;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 46%;
+}
+
+.center-part1 h1{
+    font-size: 70px;
+    line-height: 1.2;
+    font-family: "Neue Machina";    
+    margin-bottom: 20px;
+}
+
+.center-part1 p{
+    font-size: 20px;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.center button{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+.center-part2{
+    height: 100%;
+    width: 54%;
+    position: relative;
+}
+
+.center-part2 img{
+    height: 90%;
+    position: absolute;
+    right: 0;
+}
+
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.section1bottom img{
+    height: 80px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.section2 .services{
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    font-family: "Neue Machina";
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.services p{
+    width: 40%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container{
+    height: 86%;
+    width: 100%;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elem{
+    height: 250px;
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 30px;
+    flex-shrink: 0;
+    margin-bottom: 45px;
+    box-shadow: 0 8px 0 black;
+    display: flex;
+    padding: 30px;
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.elem-part1 h2{
+    font-size: 23px;
+    background-color: #9AE975;
+    font-family: "Neue Machina";
+    font-weight: 500;
+    width: 65%;
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 6px;
+}
+
+.elem-part1 h4 i{
+    font-size: 12px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.black{
+    background-color: black;
+}
+
+.black>.elem-part1>h2{
+    background-color: white;
+}
+
+.black>.elem-part1>h4{
+    color: white;
+}
+
+.black>.elem-part1>h4 i{
+    background: white;
+    color: black;
+    font-weight: 1000;
+}
+
+.section3{
+    padding: 0 8vw;
+    width: 100%;
+    height: calc(100vh - 5px); 
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+
+.upperhalf{
+    height: 230px;
+    width: 100%;
+    background-color: #cccccc6f;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px auto;
+}
+
+.text-content{
+    height: 100%;
+    width: 40%;
+    padding: 40px;
+}
+
+.text-content h1{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Neue Machina";
+    margin-bottom: 23px;
+}
+
+.text-content p{
+    margin-bottom: 23px;
+}
+
+.text-content button{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.upperhalf img{
+    height: 100%;
+    width: fit-content;
+    object-fit: cover;
+    padding-right: 15px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.middle h1{
+    background-color: #9AE975;
+    font-family: "Neue Machina";
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.middle p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bottom{
+    width: 100%;
+    height: 30%;
+    background-color: #1d1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+
+.bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bottomtext{
+    width: 30%;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+.bottomtext h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.bottomtext p{
+    color: #9AE975;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomtext p i{
+    font-size: 30px;
+}
+
+.v-line{
+    height: 125px;
+    width: 2px;
+    background-color: white;
+    opacity: 0.5;
+}
